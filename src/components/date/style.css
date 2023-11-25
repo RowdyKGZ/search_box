@@ -1,0 +1,19 @@
+.box {
+  position: relative;
+  border: 1px solid #000;
+  display: flex;
+}
+
+.box:after {
+  content: "";
+  top: -9px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background-color: #fff;
+  bottom: -8px; /* half of the elements width/height */
+  left: 3.4%;
+  transform: translateX(-50%) rotate(-134.9deg);
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
